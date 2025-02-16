@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasource.initialize",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.initialize."
+    },
+    {
+      "name": "spring.datasource.initialize",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.initialize."
+    },
+    {
+      "name": "spring.quartz.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "description": "Description for spring.quartz.datasource.driver-class-name."
+    }
+  ] }

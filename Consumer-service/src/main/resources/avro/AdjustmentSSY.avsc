@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "AdjustmentSSYKafka",
+  "namespace": "com.example.consumerservice.model",
+  "fields": [
+    {"name": "idJob", "type": "long"},
+    {"name": "edpCode", "type": "string"},
+    {"name": "applicationDateStart", "type": "string", "logicalType": "timestamp-millis"},
+    {"name": "applicationDateEnd", "type": "string", "logicalType": "timestamp-millis"},
+    {"name": "periodStart", "type": "string", "logicalType": "timestamp-millis"},
+    {"name": "periodEnd", "type": "string", "logicalType": "timestamp-millis"},
+    {"name": "updateDate", "type": "string", "logicalType": "timestamp-millis"},
+    {"name": "receivedDate", "type": "string", "logicalType": "timestamp-millis"}
+  ]
+}
